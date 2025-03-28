@@ -18,3 +18,8 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - calculated points in Scrabble using arrays and loops.
 - evaluated reading grades of texts (Flesch-Kincaid score) using functions.
 - encrypted a message using a substitution cipher with an alphabetic key given by user.
+
+#### Problem Set 3: Algorithms
+- recognised three sorting algorithms based on their running times.
+- completed a program to manage a vote with plurality system.
+- completed a program that uses ranked-choice voting system to handle ties.
