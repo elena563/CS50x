@@ -124,6 +124,7 @@ int main(int argc, string argv[])
     return 0;
 }
 
+// MY WORK STARTS HERE (vote, tabulate, print_winner, find_min, is_tie, and eliminate functions)
 // Record preference if vote is valid
 bool vote(int voter, int rank, string name)
 {

@@ -23,3 +23,6 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - recognised three sorting algorithms based on their running times.
 - completed a program to manage a vote with plurality system.
 - completed a program that uses ranked-choice voting system to handle ties.
+
+#### Problem Set 4: Memory
+- copied an audio file (.WAV) modifying its volume by a factor given by user.
