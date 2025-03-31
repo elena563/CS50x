@@ -10,20 +10,21 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 ### Problem Sets
 
 #### Problem Set 1: First Codes in C
-- printed "Hello World" and "Hello [name]".
-- created a Mario-like pyramid.
-- implemented credit card validation using the Luhn algorithm.
+- /world: printed "Hello World" and "Hello [name]".
+- /mario: created a Mario-like pyramid.
+- /credit: implemented credit card validation using the Luhn algorithm.
 
 #### Problem Set 2: Arrays and Functions
-- calculated points in Scrabble using arrays and loops.
-- evaluated reading grades of texts (Flesch-Kincaid score) using functions.
-- encrypted a message using a substitution cipher with an alphabetic key given by user.
+- /scrabble: calculated points in Scrabble using arrays and loops.
+- /readability: evaluated reading grades of texts (Flesch-Kincaid score) using functions.
+- /substitution: encrypted a message using a substitution cipher with an alphabetic key given by user.
 
 #### Problem Set 3: Algorithms
-- recognised three sorting algorithms based on their running times.
-- completed a program to manage a vote with plurality system.
-- completed a program that uses ranked-choice voting system to handle ties.
+- /sort: recognised three sorting algorithms based on their running times.
+- /plurality: completed a program to manage a vote with plurality system.
+- /runoff: completed a program that uses ranked-choice voting system to handle ties.
 
 #### Problem Set 4: Memory
-- copied an audio file (.WAV) modifying its volume by a factor given by user.
-- applied filters to bitmap images: grayscale, reflect, blur and edges (I chose this difficult version because edges filter is related to AI).
+- /volume: copied an audio file (.WAV) modifying its volume by a factor given by user.
+- /filter-more: applied filters to bitmap images: grayscale, reflect, blur and edges (I chose this difficult version because edges filter is related to AI).
+- /recover: recover JPEGs files from the forensic image of a memory card.
