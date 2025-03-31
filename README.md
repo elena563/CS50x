@@ -26,3 +26,4 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 #### Problem Set 4: Memory
 - copied an audio file (.WAV) modifying its volume by a factor given by user.
+- applied filters to bitmap images: grayscale, reflect, blur and edges (I chose this difficult version because edges filter is related to AI).
