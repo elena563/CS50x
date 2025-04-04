@@ -4,7 +4,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 
 ### Technologies Used (by now)
-- C
+- C (problem sets 1 to 5)
 
 
 ### Problem Sets
@@ -28,3 +28,6 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - /volume: copied an audio file (.WAV) modifying its volume by a factor given by user.
 - /filter-more: applied filters to bitmap images: grayscale, reflect, blur and edges (I chose this difficult version because edges filter is related to AI).
 - /recover: recover JPEGs files from the forensic image of a memory card.
+
+#### Problem Set 5: Data Structures
+- /inheritance: completed a program that assignes alleles to a person based on previous generations.
