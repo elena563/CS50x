@@ -5,6 +5,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 ### Technologies Used (by now)
 - C (problem sets 1 to 5)
+- Python (problem set 6)
 
 
 ### Problem Sets
@@ -31,3 +32,8 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 #### Problem Set 5: Data Structures
 - /inheritance: completed a program that assignes alleles to a person based on previous generations.
+- /speller: implement a program that spell-checks a file, a la the below, using a hash table.
+
+#### Problem Set 6: Python
+- /sentimental-folder: implemented some of the previous problems in Python.
+- /dna: implemented a program that identifies to whom a sequence of DNA belongs.
