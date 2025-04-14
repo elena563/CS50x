@@ -6,6 +6,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 ### Technologies Used (by now)
 - C (problem sets 1 to 5)
 - Python (problem set 6)
+- SQL (problem set 7)
 
 
 ### Problem Sets
@@ -37,3 +38,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 #### Problem Set 6: Python
 - /sentimental-folder: implemented some of the previous problems in Python.
 - /dna: implemented a program that identifies to whom a sequence of DNA belongs.
+
+#### Problem Set 7: SQL
+- /songs: wrote simple queries for gathering info about spotify top 100 songs table.
+- /movies: wrote queries for gathering info about films and actors from IMDb database.

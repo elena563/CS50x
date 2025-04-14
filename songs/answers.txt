@@ -1,0 +1,11 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+    I would calculate average values of energy, valence and danceability of the 100 songs. Then, I would consider
+a 3-dimensional space where the dimensions are our variables. Based on the three averages, the user is put
+somewhere in this space. Then I could define auras, for example with a cluster analysis, or simply manually
+deciding avg values for each aura.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?
+    This could not be representative of the listener because it's not so easy to understand emotions just though
+these parameters. An optimal way could be making text mining on songs lyrics to extract and add a new variable
+related to the song emotion to use it in the classification.
