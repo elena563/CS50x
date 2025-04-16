@@ -36,9 +36,10 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - /speller: implement a program that spell-checks a file, a la the below, using a hash table.
 
 #### Problem Set 6: Python
-- /sentimental-folder: implemented some of the previous problems in Python.
+- /sentimental-folders: implemented some of the previous problems in Python.
 - /dna: implemented a program that identifies to whom a sequence of DNA belongs.
 
 #### Problem Set 7: SQL
 - /songs: wrote simple queries for gathering info about spotify top 100 songs table.
 - /movies: wrote queries for gathering info about films and actors from IMDb database.
+- /fiftyville: searched a large database to find out the culprit of a theft, where they escaped and who helped them.
