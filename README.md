@@ -7,6 +7,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - C (problem sets 1 to 5)
 - Python (problem set 6)
 - SQL (problem set 7)
+- HTML, CSS, JavaScript (problem set 8)
 
 
 ### Problem Sets
@@ -43,3 +44,6 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 - /songs: wrote simple queries for gathering info about spotify top 100 songs table.
 - /movies: wrote queries for gathering info about films and actors from IMDb database.
 - /fiftyville: searched a large database to find out the culprit of a theft, where they escaped and who helped them.
+
+#### Problem Set 8: HTML, CSS, JavaScript 
+- /trivia: made a quiz game page interactive with javascript.

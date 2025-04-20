@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>CS50 Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <!-- I didn't use a correct class because someone could cheat by inspecting the page... :) -->
+                 <h3>Which of these is NOT a real sorting algorithm?</h3>
+                 <button class='option'>fluffy sort</button>
+                 <button class='option'>merge sort</button>
+                 <button class='option'>selection sort</button>
+                 <button class='option'>bubble sort</button>
+                 <p class='p1'></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                 <h3>What does the acronym SQL stand for?</h3>
+                 <input autocomplete="off" id="answer" placeholder="Your Answer" type="text">
+                 <button class='submit'>Check</button>
+                 <p class='p2'></p>
+            </div>
+        </div>
+        <script>
+            document.querySelectorAll('.option').forEach(function(button) {
+                button.addEventListener('click', function(e) {
+                    let message = ''
+                    if (button.innerHTML == 'fluffy sort'){
+                        button.style.backgroundColor = 'lime';
+                        message = 'Correct!'
+                    } else {
+                        button.style.backgroundColor = 'red';
+                        message = 'Incorrect'
+                    }
+                    document.querySelector('.p1').innerHTML = message;
+                    e.preventDefault();
+                });
+            });
+
+            let input = document.querySelector('input')
+            document.querySelector('.submit').addEventListener('click', function(e) {
+                    let message = ''
+                    if (input.value.toLowerCase() == 'structured query language'){
+                        input.style.backgroundColor = 'lime';
+                        message = 'Correct!'
+                    } else {
+                        input.style.backgroundColor = 'red';
+                        message = 'Incorrect'
+                    }
+                    document.querySelector('.p2').innerHTML = message;
+                    e.preventDefault();
+                });
+        </script>
+    </body>
+</html>
