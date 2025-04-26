@@ -47,3 +47,4 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 #### Problem Set 8: HTML, CSS, JavaScript 
 - /trivia: made a quiz game page interactive with javascript.
+- /homepage: created a little and simple website about reading with an interactive test.
