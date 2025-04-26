@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Reading Page</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Reading Page</h1>
+        </header>
+        <main>
+          <h2>My 5/5 Books</h2><br/>
+          <div class='grid'>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="g-0 d-flex flex-row">
+              <div class="col-md-4">
+                <img src="images/darkdata.jpg" class="img-fluid rounded-start" alt="Dark Data: Why What You Don't Know Matters cover">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Dark Data: Why What You Don't Know Matters</h5>
+                  <p>Author: David J. Hand</p>
+                  <p>Genre: Science and Technology</p>
+                  <p class="card-text">This book reveals the hidden world of "dark data" — the valuable information we overlook — and how it affects decision-making and opportunities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="g-0 d-flex flex-row">
+              <div class="col-md-4">
+                <img src="images/whitenights.jpg" class="img-fluid rounded-start" alt="White Nights cover">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">White Nights</h5>
+                  <p>Author: Fëdor Dostoevskij</p>
+                  <p>Genre: first-person narrative, romance</p>
+                  <p class="card-text">Dostoevsky's novella tells the story of a lonely man’s brief, transformative encounter with a woman in the magical white nights of St. Petersburg.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="g-0 d-flex flex-row">
+              <div class="col-md-4">
+                <img src="images/killingfloor.jpg" class="img-fluid rounded-start" alt="Killing Floor cover">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Jack Reacher - Killing Floor</h5>
+                  <p>Author: Lee Child</p>
+                  <p>Genre: Adventure</p>
+                  <p class="card-text">Jack Reacher, a former MP, stumbles into a deadly conspiracy in a small Georgia town, setting off a thrilling series of events.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="g-0 d-flex flex-row">
+              <div class="col-md-4">
+                <img src="images/carnegie.jpg" class="img-fluid rounded-start" alt="How to Win Friends and Influence People cover">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">How to Win Friends and Influence People</h5>
+                  <p>Author: Dale Carnegie</p>
+                  <p>Genre: Self-Help</p>
+                  <p class="card-text">Dale Carnegie’s timeless classic teaches you how to connect with people, influence them positively, and build meaningful relationships.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </main>
+        <section>
+          <h2>And you? Could you be in my book club?</h2>
+          <h4>Evaluate these quite famous books and then discover whether we are bookly similar!</h4><br/>
+            <div>
+              <div class=grid>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="g-0 d-flex flex-row">
+                      <div class="col-md-4">
+                        <img src="images/murder.jpg" class="img-fluid rounded-start" alt="Murder on the Orient Express cover">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Murder on the Orient Express</h5>
+                          <p>Author: Agatha Christie</p>
+                          <p>Genre: Mystery</p>
+                          <p>My Vote: 5 out of 5</p>
+                          <p>Your Vote:</p>
+                          <div id="star-rating1">
+                              <input type="radio" name="rating1" value="1"><i></i>
+                              <input type="radio" name="rating1" value="2"><i></i>
+                              <input type="radio" name="rating1" value="3"><i></i>
+                              <input type="radio" name="rating1" value="4"><i></i>
+                              <input type="radio" name="rating1" value="5"><i></i>
+                          </div>
+                          <div class="mt-3">
+                              <span id="rating-value1" class="rating-value h4">0</span> out of 5
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="g-0 d-flex flex-row">
+                      <div class="col-md-4">
+                        <img src="images/whitefang.jpg" class="img-fluid rounded-start" alt="White Fang cover">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">White Fang</h5>
+                          <p>Author: Jack London</p>
+                          <p>Genre: Adventure</p>
+                          <p>My Vote: 4 out of 5</p>
+                          <p>Your Vote:</p>
+                          <div id="star-rating2">
+                              <input type="radio" name="rating2" value="1"><i></i>
+                              <input type="radio" name="rating2" value="2"><i></i>
+                              <input type="radio" name="rating2" value="3"><i></i>
+                              <input type="radio" name="rating2" value="4"><i></i>
+                              <input type="radio" name="rating2" value="5"><i></i>
+                          </div>
+                          <div class="mt-3">
+                              <span id="rating-value2" class="rating-value h4">0</span> out of 5
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="g-0 d-flex flex-row">
+                      <div class="col-md-4">
+                        <img src="images/the-trial.jpg" class="img-fluid rounded-start" alt="The Trial cover">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">The Trial</h5>
+                          <p>Author: Franz Kafka</p>
+                          <p>Genre: Absurdist Fiction</p>
+                          <p>My Vote: 2 out of 5</p>
+                          <div id="star-rating3">
+                              <input type="radio" name="rating3" value="1"><i></i>
+                              <input type="radio" name="rating3" value="2"><i></i>
+                              <input type="radio" name="rating3" value="3"><i></i>
+                              <input type="radio" name="rating3" value="4"><i></i>
+                              <input type="radio" name="rating3" value="5"><i></i>
+                          </div>
+                          <div class="mt-3">
+                              <span id="rating-value3" class="rating-value h4">0</span> out of 5
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="g-0 d-flex flex-row">
+                      <div class="col-md-4">
+                        <img src="images/crime.png" class="img-fluid rounded-start" alt="Crime and Punishment cover">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Crime and Punishment</h5>
+                          <p>Author: Fëdor Dostoevskij</p>
+                          <p>Genre: Psychological Thriller</p>
+                          <p>My Vote: 5 out of 5</p>
+                          <div id="star-rating4">
+                              <input type="radio" name="rating4" value="1"><i></i>
+                              <input type="radio" name="rating4" value="2"><i></i>
+                              <input type="radio" name="rating4" value="3"><i></i>
+                              <input type="radio" name="rating4" value="4"><i></i>
+                              <input type="radio" name="rating4" value="5"><i></i>
+                          </div>
+                          <div class="mt-3">
+                              <span id="rating-value4" class="rating-value h4">0</span> out of 5
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class='result'>
+              <button id="check">See the Result!</button>
+              <h4 class='p1'></h4>
+            </div>
+          </section>
+        <footer>2025 <a href="https://elenazen.it/">Elena Zen</a> All Rights Reserved</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

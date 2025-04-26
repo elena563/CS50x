@@ -1,0 +1,21 @@
+html tags:
+1. <header>
+2. <main>
+3. <div>
+4. <img>
+5. <a>
+6. <section>
+7. <footer>
+8. <p>
+9. <h1>
+10. <button>
+
+css selectors:
+1. header, footer
+2. .result
+3. footer a
+4. button:hover
+5. .spaced
+
+I used Javascript to create a comparison test between user's reading taste and mine, letting them rate some books from 1 to 5 stars.
+I used a Bootstrap card component to introduce some books, and a star rating component (I had to modify it to use four).
