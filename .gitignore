@@ -4,3 +4,4 @@ movies/gitignore
 movies/movies.db
 songs/songs.db
 fiftyville/fiftyville.db
+finance/flask_session

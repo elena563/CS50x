@@ -5,9 +5,10 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 
 ### Technologies Used (by now)
 - C (problem sets 1 to 5)
-- Python (problem set 6)
+- Python (problem set 6 and 9)
 - SQL (problem set 7)
 - HTML, CSS, JavaScript (problem set 8)
+- Flask (problem set 9)
 
 
 ### Problem Sets
@@ -48,3 +49,7 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 #### Problem Set 8: HTML, CSS, JavaScript 
 - /trivia: made a quiz game page interactive with javascript.
 - /homepage: created a little and simple website about reading with an interactive test.
+
+#### Problem Set 9: Flask
+- /birthdays: completed an app to memorize birthdays.
+- /finance: created an app with authentication to buy and sell in the stock market.

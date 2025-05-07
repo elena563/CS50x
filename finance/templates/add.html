@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Buy
+{% endblock %}
+
+{% block main %}
+    <form action="/add" method="post">
+        <div class="mb-3">
+            <h4>Choose payment method</h4>
+            <input name="payment" type="radio"> Credit card
+            <input name="payment" type="radio"> Paypal
+        </div>
+        <div class="mb-3">
+            $<input autocomplete="off" class="form-control mx-auto w-auto" name="amount" placeholder="Amount" type="number">
+        </div>
+        <button class="btn btn-primary" type="submit">Add cash</button>
+    </form>
+{% endblock %}

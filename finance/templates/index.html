@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Your Stocks
+{% endblock %}
+
+{% block main %}
+    <h2>Your Stocks</h2>
+    <h3>Your Cash: {{ "{:,.2f}".format(cash) }}</h3>
+    <h3>Your Total Balance: {{ "{:,.2f}".format(balance) }}</h3>
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Current Price</th>
+                <th>Owned Shares</th>
+                <th>Total Owned Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in stocks %}
+
+                <tr>
+                    <td>{{ stock.symbol }}</td>
+                    <td>{{ stock.price | usd }}</td>
+                    <td>{{ stock.shares }}</td>
+                    <td>{{ (stock.price * stock.shares) | usd }}</td>
+                </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

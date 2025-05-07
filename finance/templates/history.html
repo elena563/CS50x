@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Your Stocks
+{% endblock %}
+
+{% block main %}
+    <h2>Your Transactions</h2>
+    <table class='table'>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Time</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Transaction type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in table %}
+
+                <tr>
+                    <td>{{ row.symbol }}</td>
+                    <td>{{ row.time }}</td>
+                    <td>{{ row.shares }}</td>
+                    <td>{{ row.price | usd }}</td>
+                    <td>{{ row.type }}</td>
+                </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
