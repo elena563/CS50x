@@ -2,6 +2,7 @@
 #import <ctype.h>
 #import <stdio.h>
 #import <string.h>
+#define N 7
 
 int get_score(string word);
 
@@ -27,19 +28,20 @@ int main(void)
 
 int get_score(string w)
 {
-    string word = tolower(w);
-    int N = 6;
-    string sets[N] = {"qz", "zj", "fhvwy", "bcmp", "dg", "aeilnorstu"};
-    int points[N] = {10, 8, 4, 3, 2, 1};
+
+    string sets[N] = {"qz", "xj", "k", "fhvwy", "bcmp", "dg", "aeilnorstu"};
+    int points[N] = {10, 8, 5, 4, 3, 2, 1};
     int score = 0;
-    for (int i=0; i<strlen(word); i++)
+    for (int i=0; i<strlen(w); i++)
     {
         for (int s=0; s<N; s++)
         {
             string set = sets[s];
             for (int j=0; j<strlen(set); j++)
             {
-                if (word[i] == set[j]){
+                if (tolower(w[i]) == set[j]){
+                    if (!isalpha(w[i]))
+                        continue;
                     score += points[s];
                     break;
                 }
