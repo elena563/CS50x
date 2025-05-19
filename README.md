@@ -53,3 +53,6 @@ This repository contains my solutions to the CS50x - Introduction to Computer Sc
 #### Problem Set 9: Flask
 - /birthdays: completed an app to memorize birthdays.
 - /finance: created an app with authentication to buy and sell in the stock market.
+
+#### Final Project
+My final project for the course is an interactive web application for statistical data analysis, machine learning modeling, and model explainability. I decided to base this project on Python and Flask. For practical reasons, it can be found on its own GitHub repository [here](https://github.com/elena563/statpilot).
